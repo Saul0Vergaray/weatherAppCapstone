@@ -1,6 +1,6 @@
 const weatherLoad = () =>{
 let input = localStorage.getItem('zipCode')
-axios.get(`https://api.openweathermap.org/data/2.5/weather?zip=${input}&appid=f456589e9ec829c258ad97423b99d975`)
+axios.get(`https://api.openweathermap.org/data/2.5/weather?zip=${input}&appid=*insertyourapikeyhere*`)
     .then(res => {
         console.log(res.data)
         let weatherBox = document.querySelector('#weatherbox')
