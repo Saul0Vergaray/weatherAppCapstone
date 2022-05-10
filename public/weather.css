@@ -1,0 +1,61 @@
+body{
+    font-family: "Subay Cirle";
+    background-color: #41bbd9;
+    margin: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    }
+
+    nav {
+        border-bottom: 2px solid white;
+        
+        
+    }
+
+    .crumb {
+        margin-right: 2em;
+        padding: .5rem;
+        display: inline;
+        background-color: #E4FDE1;
+        font-size: large;
+        color:black;
+        border-radius: 10px;
+          }
+
+    h1 {
+        margin: 5rem;
+        text-align: center;
+        color: white;
+        }
+
+        p{
+            padding-top: 200px;
+            text-align: center;
+        }
+
+        h2{
+            text-align: center;
+            color: white;
+            padding-top: 15%;
+        }
+
+        .crumbs {
+            padding: .5rem;
+            display: inline;
+            background-color: #E4FDE1;
+            font-size: large;
+            color:black;
+            border-radius: 10px;
+        }
+
+        #weatherbox{
+            text-align: center;
+            font-size: xx-large;
+            padding-top: 5%;
+        }
+
+        .butWhy{
+            height: 200px;
+            width: 200px;
+            margin-left: 45%;
+        }

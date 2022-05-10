@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./weather.html">Weather</a></li>
+	        <li class="crumb"><a href="./learn.html">learn</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./settings.html">Settings</a></li>
+	    </ol>
+	</nav>
+
+    <h1 class="about"> Why did we create this page?</h1>
+<p>
+    This whole idea I dedicate to Diana Vergaray-Limon, the head of the Spanish Dept. at the Provo City Library (and is also my mom). She and many others of the Children's Dept. have crafted programs that promote early age learning that include, learning to speak, to read, to write, and to sing. I myself, along with the Children's Dept. of the PCL, believe that it is never to early for one to start learning. After all, kids are practically like sponges. That same ideology is also how language immersion programs help kids become fluently multi-langual in just a few short years. This is my small contribution, to help kids learn about the weather with this easy weather app!
+</p>
+<img class="Pip2" src="client/Pip.jpeg">
+
+<script>
+ const getBackgroundColor= () =>{
+    document.body.style.backgroundColor = window.localStorage.getItem('backgroundColor');
+}
+getBackgroundColor()
+
+</script>
+
+</body>
+</html>

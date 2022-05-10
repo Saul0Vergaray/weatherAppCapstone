@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./weather.html">Weather</a></li>
+	        <li class="crumb"><a href="./learn.html">learn</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./settings.html">Settings</a></li>
+	    </ol>
+	</nav>
+
+    
+
+<input type="text" id="colorInputText" placeholder="Enter a background color!">
+
+<input type="button" id="colorButton" value="Change the Color" 
+onclick="changeColor()">
+
+
+
+<script>
+    function changeColor(){
+        let color = document.getElementById('colorInputText').value;
+        document.body.style.backgroundColor = color;
+
+        window.localStorage.setItem('backgroundColor', color)
+    }
+</script>
+
+
+<script>
+    const getBackgroundColor= () =>{
+       document.body.style.backgroundColor = window.localStorage.getItem('backgroundColor');
+   }
+   getBackgroundColor()
+   
+   </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4"
+  },
+  "name": "capstone",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saul0Vergaray/Capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saul0Vergaray/Capstone/issues"
+  },
+  "homepage": "https://github.com/Saul0Vergaray/Capstone#readme"
+}

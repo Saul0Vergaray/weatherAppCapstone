@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./weather.html">Weather</a></li>
+	        <li class="crumb"><a href="./learn.html">learn</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+            <li class="crumb"><a href="./settings.html">Settings</a></li>
+	    </ol>
+	</nav>
+
+<h1>So what is the weather today Pip? </h1>
+<section id="weatherbox">
+    
+</section>
+
+<h2>what does this mean? click 
+    <li class="crumbs"><a href="./learn.html">HERE</a></li>to learn more</h2>
+    <img class="butWhy" src="client/butWhyTho.jpeg">
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+
+    <script>
+        const getBackgroundColor= () =>{
+           document.body.style.backgroundColor = window.localStorage.getItem('backgroundColor');
+       }
+       getBackgroundColor()
+       
+       </script>
+
+</body>
+</html>
